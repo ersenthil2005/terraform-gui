@@ -1,4 +1,4 @@
- - SECURITY GROUPS ---------------------------------------------------- #
+# - SECURITY GROUPS ---------------------------------------------------- #
 
 resource "aws_security_group" "alpha_ec2" {
   depends_on  = [aws_vpc.alpha]
